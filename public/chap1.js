@@ -174,7 +174,12 @@
 //             document.write(a+"*"+i+"="+a*i+ "<br>")
 //         }
 // Q#6
-// a = 50
+// var CelTemp = 25;
+// var CelTemp_to_FarTemp = (CelTemp * 9/5) + 32;
+// var FarTemp = 70;
+// var FarTemp_to_CelTemp = (FarTemp - 32) * 5/9;
+// document.write(CelTemp + "°C is " + CelTemp_to_FarTemp + "°F<br>");
+// document.write(FarTemp + "°F is " + FarTemp_to_CelTemp + "°C");
 // Q#7
 /* <h1>SHOPPING CART</h1> */
 // item1 =  650
@@ -210,11 +215,31 @@
 //  document.write(a)
 
 // Q#11
-// currentyear = 2020
-// birthyear = 1992
-// age = currentyear/ birthyear
+// var currentyear = 2020
+//var birthyear = 1992
+// var age = currentyear- birthyear
 // document.write(age)
 
+// Q#12
+// var radius = 20;
+//     var circumference = 2 * 3.142 * radius;
+//     var area = 3.142 * radius*radius;
+//     document.write("Radius of circle is:" + radius);
+//     document.write("<br>The circumference is:" + circumference);
+//     document.write("<br>The area is:" + area);
+
+// Q#13
+// var FavSnack = " layz ";
+//     var CurrentAge = 15;
+//     var MaxAge = 65;
+//     var PerDay = 3;
+//     var TotalEat = ((MaxAge-CurrentAge) * (PerDay*365));
+//     document.write("<h1>The Lifetime Supply Calculator</h1>");
+//     document.write("Favorite Snack: "+FavSnack);
+//     document.write("<br>Current Age: "+CurrentAge);
+//     document.write("<br>Estimated Max Age: "+MaxAge);
+//     document.write("<br>Amount of Snacks Per Day: " + PerDay);
+//     document.write("<br>You will need:"+TotalEat)
 
 // Chapter#6 Q1
 
